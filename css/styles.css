@@ -118,6 +118,7 @@ body {
     max-width: 1158px;  
 }
 .header-box {
+    border-bottom: 1px solid #e7e9fc;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,6 +130,10 @@ body {
  display: inline-block;
  align-items: start;
     margin:40px;
+}
+.address{
+    display:flex;
+    gap:40px;
 }
 .logo{
     color:#2e2f42;
@@ -280,23 +285,9 @@ margin-left: 24px;
     padding-top: 60px;
 }
 .team-list{
+    gap:24px;
     display: flex;
     justify-content: space-between;
-}
-.team-list-1{
-    margin-left: 15px;
-    margin-right: 24px;
-}
-.team-list-2{
-    margin-right: 24px;
-    margin-left: 24px;
-}
-.team-list-3{
-    margin-right: 24px;
-    margin-left: 24px;
-}
-.team-list-4{
-    margin-right: 15px;
 }
 .team-name{
     text-align: center;
@@ -344,6 +335,7 @@ margin-left: 24px;
 }
 .portfolio-list-border{
     border: 1px solid var(--cornflower);
+    margin-top:48px;
 }
 
 /* end of portfolio   */
