@@ -70,7 +70,7 @@ body {
   background-color: #ffffff;
   position: relative;
 }
-body h1 {
+h1 {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -78,14 +78,14 @@ body h1 {
   color: #ffffff;
   text-align: center;
 }
-body h2 {
+h2 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
-body h3 {
+h3 {
   text-align: left;
   font-weight: 500;
   font-size: 20px;
@@ -116,15 +116,15 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
   padding-right: 15px;
   max-width: 1158px;
 }
 .header-box {
-  border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-logo {
   margin-right: 76px;
@@ -133,8 +133,7 @@ body {
   display: flex;
   gap: 40px;
 }
-#position-nav {
-  margin-top: 24px;
+.position-nav {
   margin-left: 76px;
 }
 address {
@@ -152,7 +151,7 @@ address {
   text-decoration: none;
   padding-left: 15px;
   padding-bottom: 24px;
-  padding-top: 24px;
+  /* padding-top: 24px; */
 }
 .color-slate-logo {
   font-family: var(--second-family);
@@ -200,7 +199,7 @@ address {
 .address-link a {
   padding-right: 15px;
   padding-bottom: 24px;
-  padding-top: 24px;
+  /* padding-top: 24px; */
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -219,8 +218,6 @@ address {
   margin-top: 1px;
   padding-top: 188px;
   padding-bottom: 292px;
-  padding-left: 331px;
-  padding-right: 331px;
   text-align: justify;
   background: var(--navy-blue);
 }
@@ -266,6 +263,7 @@ address {
   justify-content: space-between;
   padding-bottom: 120px;
   padding-top: 120px;
+  gap: 24px;
 }
 .feature-1 {
   padding-left: 15px;
@@ -348,10 +346,10 @@ address {
 .footer {
   background-color: #2e2f42;
 }
-#section-footer {
+/* #section-footer {
   padding-top: 100px;
   padding-bottom: 100px;
-}
+} */
 .footer-link {
   padding-left: 15px;
 }
