@@ -298,8 +298,10 @@ body {
 }
 .card-content {
   text-align: center;
-  padding-top: 33px;
   padding-bottom: 32px;
+  padding-top: 32px;
+  padding-left: 16px;
+  border-radius: 0 0 4px 4px;
 }
 /* .team-position {
   text-align: center;
