@@ -354,6 +354,7 @@ body {
 } */
 .footer-link {
   padding-left: 15px;
+  text-decoration: none;
 }
 .footer-text {
   color: var(--cloud);
