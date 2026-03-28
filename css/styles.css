@@ -117,7 +117,6 @@ header {
 }
 .section-header {
   background-color: #fff;
-  padding-top: 24px;
 }
 .container {
   margin-left: auto;
@@ -138,8 +137,6 @@ header {
   margin-left: 76px;
   display: flex;
   gap: 40px;
-  padding-bottom: 24px;
-  padding-top: 24px;
 }
 .header-nav-list {
   margin-left: 76px;
@@ -232,6 +229,7 @@ header {
 .hero {
   margin-top: 1px;
   padding-top: 188px;
+  padding-bottom: 188px;
   text-align: center;
   background: var(--navy-blue);
 }
@@ -255,9 +253,6 @@ header {
   letter-spacing: 0.04em;
   color: var(--white);
   border: none;
-}
-.position-button {
-  padding-bottom: 188px;
 }
 .button:hover,
 .button:focus {
@@ -289,7 +284,11 @@ header {
   gap: 24px;
 }
 .feature-list-item {
-  padding: 32px 16px;
+  padding: 0;
+  border-radius: 4px;
+}
+.feature-list-item h3 {
+  padding: 0 32px 8px 0;
   border-radius: 4px;
 }
 /* end of Features */
@@ -348,10 +347,17 @@ header {
   text-align: center;
   padding-top: 32px;
   padding-left: 16px;
-  border-radius: 0 0 4px 4px;
   border-left: 1px solid var(--cornflower);
   border-bottom: 1px solid var(--cornflower);
   border-right: 1px solid var(--cornflower);
+}
+.card-content-portfolio {
+  text-align: left;
+  padding-top: 32px;
+  padding-left: 16px;
+  /* border-left: 1px solid var(--cornflower);
+  border-bottom: 1px solid var(--cornflower);
+  border-right: 1px solid var(--cornflower); */
 }
 .card-text {
   padding-left: 16px;
@@ -361,7 +367,14 @@ header {
 .portfolio-list-border {
   border: none;
 }
-
+.card {
+  border-radius: 0 0 4px 4px;
+}
+.portfolio-wrapper {
+  border-left: 1px solid var(--cornflower);
+  border-bottom: 1px solid var(--cornflower);
+  border-right: 1px solid var(--cornflower);
+}
 /* end of portfolio   */
 .footer {
   background-color: #2e2f42;
