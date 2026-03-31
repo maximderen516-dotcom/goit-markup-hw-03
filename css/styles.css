@@ -137,10 +137,9 @@ header {
 }
 .header-nav {
   display: flex;
-  gap: 40px;
 }
 .header-nav-list {
-  margin-left: 76px;
+  margin-left: 36px;
   display: flex;
   gap: 40px;
 }
@@ -256,6 +255,8 @@ header {
 /* region Features */
 .section-features {
   background-color: #fff;
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 .visually-hidden {
   position: absolute;
@@ -271,8 +272,8 @@ header {
 }
 .feature-list {
   display: flex;
-  padding-bottom: 120px;
-  padding-top: 120px;
+  /* padding-bottom: 120px;
+  padding-top: 120px; */
   gap: 24px;
 }
 .feature-list-item {
@@ -349,25 +350,11 @@ header {
 .img-portfolio {
   display: block;
 }
-/* .card-content {
-  text-align: center;
-  padding-top: 32px;
-  padding-left: 16px;
-  border-left: 1px solid var(--cornflower);
-  border-bottom: 1px solid var(--cornflower);
-  border-right: 1px solid var(--cornflower);
-} */
+
 .card-content-portfolio {
   text-align: left;
-  padding-top: 32px;
-  padding-left: 16px;
-  /* border-left: 1px solid var(--cornflower);
-  border-bottom: 1px solid var(--cornflower);
-  border-right: 1px solid var(--cornflower); */
 }
 .card-text {
-  padding-left: 16px;
-  padding-bottom: 32px;
   margin-top: 8px;
 }
 .portfolio-list-border {
@@ -390,11 +377,7 @@ header {
 .footer-desc {
   max-width: 264px;
 }
-/* #section-footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
-} */
-.footer-container {
+footer {
   padding-top: 100px;
   padding-bottom: 100px;
 }
