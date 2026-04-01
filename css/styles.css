@@ -132,14 +132,14 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-.header-logo {
+/* .header-logo {
   margin-right: 76px;
-}
+} */
 .header-nav {
   display: flex;
 }
 .header-nav-list {
-  margin-left: 36px;
+  margin-left: 76px;
   display: flex;
   gap: 40px;
 }
@@ -345,6 +345,7 @@ header {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  flex-basis: calc((100% - 48px) / 3);
   /* padding-bottom: 120px; */
 }
 .img-portfolio {
@@ -359,7 +360,6 @@ header {
 }
 .portfolio-list-border {
   border: none;
-  flex-basis: calc((100% - 48px) / 3);
 }
 .card {
   border-radius: 0 0 4px 4px;
